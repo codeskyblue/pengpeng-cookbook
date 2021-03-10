@@ -1,5 +1,13 @@
 # Python
 
+## 常用环境变量
+```
+PYTHONIOENCODING=utf-8  # 强制编码
+PYTHONUNBUFFERED=1  # 关闭缓存, 等价于-u
+```
+
+更多参考: https://docs.python.org/3/using/cmdline.html
+
 ## PIL save to memory
 ```python
 import io
